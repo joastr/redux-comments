@@ -11,10 +11,10 @@ function addComment(text) {
     type: ADD_COMMENT,
     id: uuid.v4(),
     text: text
-  }
+  };
 }
 
-export addComment
+
 
 
 
@@ -23,10 +23,11 @@ function thumbUpComment(commentId) {
   return {
     type: THUMB_UP_COMMENT,
     id: commentId
-  }
+  };
 }
 
-export thumbUpComment
+
+export { addComment, thumbUpComment };
 
 
 
