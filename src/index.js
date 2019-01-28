@@ -16,5 +16,6 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-store.dispatch(addComment('drugi komentarz'));
-store.dispatch(addComment('pierwszy komentarz'));
+store.dispatch(addComment('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales vel massa vel blandit. Sed malesuada ante massa, vel viverra metus ultricies sit amet. Donec sodales egestas ante, at viverra elit suscipit a. Vestibulum porttitor quam eu nisi ultrices luctus. Donec id faucibus ex, non accumsan mauris.'));
+store.dispatch(addComment('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales vel massa vel blandit. Sed malesuada ante massa, vel viverra metus ultricies sit amet. Donec sodales egestas ante, at viverra elit suscipit a. Vestibulum porttitor quam eu nisi ultrices luctus. Donec id faucibus ex, non accumsan mauris.'));
+store.dispatch(addComment('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales vel massa vel blandit. Sed malesuada ante massa, vel viverra metus ultricies sit amet. Donec sodales egestas ante, at viverra elit suscipit a. Vestibulum porttitor quam eu nisi ultrices luctus. Donec id faucibus ex, non accumsan mauris.'));
